@@ -3,35 +3,127 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif;
 }
-.two-side {
+/* Header */
+
+header {
   background-image: url(images/header-bg.png);
   background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
   display: flex;
-  justify-content: center;
-  align-items: center;
+}
+header .text-side {
+  flex: 1 45%;
+  padding-top: 8%;
+  padding-bottom: 8%;
+  padding-left: 10%;
+}
+header h3 {
+  font-size: 40px;
+}
+header h1 {
+  font-size: 54px;
+  color: #ec507a;
+}
+header p {
+  font-size: 23px;
+  color: dimgray;
+}
+header .img-side {
+  flex: 1 45%;
+  padding-right: 5%;
+}
+header .img-side img {
+  max-width: 100%;
 }
 
-a {
+.ancor-button {
+  display: inline-block;
   text-decoration: none;
-  font-size: 20px;
+  padding: 15px 40px;
+  font-size: 22px;
   background-image: linear-gradient(#eb548c, #ec4f75);
   color: whitesmoke;
-  padding: 15px;
-  border-radius: 9px;
+  border-radius: 8px;
+  margin-top: 20px;
 }
-h1 {
-  font-size: 42px;
-  color: #ec507a;
-  font-weight: bolder;
+
+/* Header */
+
+/* Middle-section */
+.middle-section {
+  background-image: url(images/biography-bg.png);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  padding-top: 7%;
 }
-h3 {
-  font-size: 32px;
+.middle-section .img-side {
+  flex: 1 45%;
+  padding-left: 10%;
 }
-img {
-  width: 60%;
-  height: auto;
+.middle-section .text-side {
+  flex: 1 45%;
+  padding-right: 5%;
+  padding-top: 5%;
 }
-p {
-  font-size: 18px;
+.middle-section .text-side h1 {
+  font-size: 40px;
+}
+.middle-section .text-side p {
+  font-size: 15px;
+  color: dimgray;
+}
+/*latest-work */
+.latest-work {
+  background-image: url(images/latest-work-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+}
+.latest-work-img {
+  display: flex;
+  overflow: hidden;
+  padding: 5% 10%;
+}
+.latest-work-text h1 {
+  padding-top: 5%;
+  font-size: 40px;
+  text-align: center;
+}
+.latest-work-img .img {
+  flex: 1 26.67%;
+}
+.latest-work-img img {
+  max-width: 100%;
+}
+footer {
+  background-image: url(images/footer-bg.png);
+}
+footer .text {
+  text-align: center;
+}
+footer h1 {
+  font-size: 40px;
+}
+footer .message {
+  color: white;
+  background: linear-gradient(#eb548c, #ec4f75);
+  padding: 2% 0;
+  border-radius: 15px;
+  margin: 6% 30%;
+}
+footer .lorem {
+  margin-top: 10%;
+}
+footer span {
+  font-size: 15px;
+  color: dimgray;
+}
+footer .footer-designed {
   color: dimgray;
 }
